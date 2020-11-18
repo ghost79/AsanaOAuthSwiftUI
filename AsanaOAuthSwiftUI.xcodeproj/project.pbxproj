@@ -13,6 +13,7 @@
 		E14C36AC2564562200710864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14C36AB2564562200710864 /* Preview Assets.xcassets */; };
 		E14C36B72564562200710864 /* AsanaOAuthSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14C36B62564562200710864 /* AsanaOAuthSwiftUITests.swift */; };
 		E14C36C22564562300710864 /* AsanaOAuthSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14C36C12564562300710864 /* AsanaOAuthSwiftUIUITests.swift */; };
+		E14C36D325645DCC00710864 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E14C36D225645DCC00710864 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E14C36BD2564562300710864 /* AsanaOAuthSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsanaOAuthSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14C36C12564562300710864 /* AsanaOAuthSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsanaOAuthSwiftUIUITests.swift; sourceTree = "<group>"; };
 		E14C36C32564562300710864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14C36D225645DCC00710864 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		E14C36982564561E00710864 = {
 			isa = PBXGroup;
 			children = (
+				E14C36D225645DCC00710864 /* README.md */,
 				E14C36A32564561E00710864 /* AsanaOAuthSwiftUI */,
 				E14C36B52564562200710864 /* AsanaOAuthSwiftUITests */,
 				E14C36C02564562300710864 /* AsanaOAuthSwiftUIUITests */,
@@ -235,6 +238,7 @@
 			files = (
 				E14C36AC2564562200710864 /* Preview Assets.xcassets in Resources */,
 				E14C36A92564562200710864 /* Assets.xcassets in Resources */,
+				E14C36D325645DCC00710864 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
