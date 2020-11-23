@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		E14C36B72564562200710864 /* AsanaOAuthSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14C36B62564562200710864 /* AsanaOAuthSwiftUITests.swift */; };
 		E14C36C22564562300710864 /* AsanaOAuthSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14C36C12564562300710864 /* AsanaOAuthSwiftUIUITests.swift */; };
 		E14C36D325645DCC00710864 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E14C36D225645DCC00710864 /* README.md */; };
+		E1EEA256256BAC3C00A9E853 /* OAuthSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E1EEA255256BAC3C00A9E853 /* OAuthSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1EEA256256BAC3C00A9E853 /* OAuthSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +151,9 @@
 			dependencies = (
 			);
 			name = AsanaOAuthSwiftUI;
+			packageProductDependencies = (
+				E1EEA255256BAC3C00A9E853 /* OAuthSwift */,
+			);
 			productName = AsanaOAuthSwiftUI;
 			productReference = E14C36A12564561E00710864 /* AsanaOAuthSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +225,9 @@
 				Base,
 			);
 			mainGroup = E14C36982564561E00710864;
+			packageReferences = (
+				E1EEA254256BAC3C00A9E853 /* XCRemoteSwiftPackageReference "OAuthSwift" */,
+			);
 			productRefGroup = E14C36A22564561E00710864 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -584,6 +592,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1EEA254256BAC3C00A9E853 /* XCRemoteSwiftPackageReference "OAuthSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OAuthSwift/OAuthSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1EEA255256BAC3C00A9E853 /* OAuthSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1EEA254256BAC3C00A9E853 /* XCRemoteSwiftPackageReference "OAuthSwift" */;
+			productName = OAuthSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E14C36992564561E00710864 /* Project object */;
 }
